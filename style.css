@@ -8,7 +8,7 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-.hr1 {
+.hr1, .hr5 {
     margin-top: 2%;
     border: 0.1em solid #F05454;
 }
@@ -39,14 +39,16 @@ body {
 .button {
     font-family: "Raleway", sans-serif;
     background-color: #F05454;
-    border-style: none;
+    color: #f5f5f5;
+    border: none;
+    outline: none;
+    padding: 0.5em;
     border-radius: 2px;
-    padding: 7px;
-    font-size: 1em;
 }
 
 .section-main {
     display: flex;
+    flex-wrap: wrap;
     line-height: 3em;
     margin-top: 4em;
 }
@@ -65,7 +67,7 @@ p>strong {
   font-size: large;
 }
 
-.hr2, .hr3 {
+.hr2, .hr3, .hr4 {
     margin-top: 10%;
     border: 0.1em solid #f5f5f5;
     width:50%;
@@ -74,9 +76,11 @@ p>strong {
 }
 
 .container-1, .container-2 {
-    display: flex;
-    margin-top: 5em;
-}
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5em;
+        padding: 1em 0em;
+    }
 
 .box-1, .box-3 {
     flex: 1;
@@ -104,3 +108,55 @@ p>strong {
     margin-left: 1em;
 }
 
+.container-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4em;
+}
+
+.box-7 {
+    margin-left: 2em;
+    font-size: medium;
+    color: #F05454;
+}
+
+.box-7 > h3 {
+    color: #F05454;
+    margin-top: 7em;
+}
+
+.box-7 >p {
+    color: #121212;
+    margin-top: 1em;
+    font-size: medium;
+}
+
+.box-8 {
+    margin-top: none;
+}
+
+.box-9 > h3 {
+    color: #F05454;
+    margin-top: 7em;
+    margin-left: 2em;
+}
+
+.box-9 >p {
+    color: #121212;
+    margin-top: 1em;
+    margin-left: 2em;
+    font-size: medium;
+}
+
+.box-11 > h3 {
+    color: #F05454;
+    margin-top: 7em;
+    margin-left: 2em;
+}
+
+.box-11 >p {
+    color: #121212;
+    margin-top: 1em;
+    margin-left: 2em;
+    font-size: medium;
+}
