@@ -2,26 +2,16 @@
 
 ## Introduction
 
-Learning all the individual pieces that make up a web page is a necessary first
-step in the process of learning HTML, but one of the best ways to solidify the
-concepts we've learned is to apply concepts together. In this lab, your task
-will be to update `index.html` based on commented notes in the file, using what
-we've learned about text formatting and displaying images.
+This is the first version of my portfolio. As my skill set grows, I'll continue to build it out to give it more interactive appeal. 
 
+## Learnings and issues still to be resolved
+There were so many learnings on this project, none more important than to remember that this is a learning process and not to expect to be able to do things quickly, or even know where to start in these early days. It is a huge lesson in patience and resilience that will continue for the life of this journey in front end development. 
 
+Remember to use all the resources available and there is quite often a variety of ways to complete the same outcome. If one way and explanation is not resonating, try another resource and it may work instead. 
+
+While the focus of the assessment for this project is to see how we are going with our HTML and CSS primarily, and responsiveness was not an offical requirement. I really wanted to make it responsive. After quite some time of playing around I was still having issues with the skills section not changing to a column format once I got to a smaller mobile size. Also could not get the <hr1> and <hr5> to stay the full width of the screen once I got to a smaller mobile size also. 
+
+As I started the course a week and a half into the program I am not yet confident to add in any Java Script. I added in a script.js page just to show I am aware that we need one in the folder, but I have not added anything in the file. I look forward to updating this once I have me head around Java Script a bit more so I can add some life to the page.
 
 ## Conclusion
-
-A lot of the formatting in this lab is done using CSS, or Cascading Style
-Sheets, a language that defines styling for HTML. Before we can get to more
-elaborate styling, though, it is important to have a strong understanding of
-HTML fundamentals.
-
-In this lab, we've tested that understanding by having you practice applying
-headers, image, and paragraphs. Completing this lab means that you have a solid
-foundation that we can build upon as we continue to learn about web development.
-
-_Clap along if you feel_ you're getting the hang of HTML!
-
-[read up on some reference material]:
-  https://www.w3schools.com/tags/tag_span.asp
+This project will evolve and I hope that some time soon, with the addition of some Java script and other learnings this will be a portfolio I am proud to share with the industry. 
