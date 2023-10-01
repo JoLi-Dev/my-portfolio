@@ -8,8 +8,8 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-.hr1, .hr5 {
-    margin-top: 2%;
+.hr1 {
+    margin-top: 2em;
     border: 0.1em solid #F05454;
 }
 
@@ -159,4 +159,29 @@ p>strong {
     margin-top: 1em;
     margin-left: 2em;
     font-size: medium;
+}
+
+.hr5 {
+    margin-bottom: 1em;
+    border: 0.1em solid #F05454;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.5em; 
+}
+
+.footer-item {
+    list-style: none;
+}
+
+.footer-item {
+    margin-right: 2em;
+}
+
+.footer-item:first-child {
+    margin-right: auto;
+    margin-left: 2em;
+    color: #121212;
 }
